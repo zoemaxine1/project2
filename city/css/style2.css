@@ -1,0 +1,140 @@
+body {
+  background-image: url("../../img/wood.jpg");
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  height: 1000px;
+  margin: 0;
+}
+
+nav a {
+  color: white;             /* Makes the link text color white */
+  text-decoration: none;    /* Removes the underline */
+  padding: 10px 20px;       /* Optional: Add some padding around the links */
+  font-size: 27px;          /* Optional: Adjust font size */
+}
+
+nav a:hover {
+  color: #f994f4;           /* Optional: Changes color when hovering over the link */
+  text-decoration: underline;  /* Optional: Adds underline on hover */
+ 
+}
+.container {
+  display: flex;
+
+  flex-direction: column;  
+  align-items: center;  /* Align items vertically */
+  justify-content: space-between;
+  gap: 20px;  /* Align items horizontally to the left */
+  margin: 20px;
+}
+
+.container img {
+  margin-right: 20px;  /* Add some space between the image and the text */
+  width: 700px;  /* Optional: Set a width for the image */
+  height: 700px;  /* Maintain the image aspect ratio */
+}
+.container img {
+  margin-right: 20px;  /* Add some space between the image and the text */
+  width: 700px;  /* Optional: Set a width for the image */
+  height: 700px;  /* Maintain the image aspect ratio */
+}
+.container p, .container p2 {
+  flex: 1;  /* Allow the text to take up remaining space */
+}
+.image-text {
+  display: flex;                 /* Flexbox layout for each image-text pair */
+  align-items: center;           /* Vertically align the items */
+}
+
+.image-text img {
+  width: 700px;
+  height: 700px;                                  
+  margin-right: 20px;           
+}
+
+.text {
+  flex: 1;  
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-align: left;  
+  font-size: 20px;  
+                 
+}
+
+.text p, .text p2 {
+  margin: 5px 0;                 
+}
+
+.twin img {
+  margin-right: 20px;
+  order: 20;                       /* Moves the image to the right */
+}
+
+.twin .text {
+  margin-right: 20px;
+  order: 1;                       /* Moves the text to the left */
+  text-align: right; 
+}
+
+p {
+  padding: 12px 70px;
+}
+
+
+
+h1, h2 {
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+h2{
+  text-shadow: 3px 3px 3px black;
+  font-family: "Lato", sans-serif;
+font-size: 30px ;
+
+}
+
+
+header {
+    background-color: #F85658;
+    background-image: linear-gradient(red,purple);
+    background-image: url("../../img/bck.JPEG");
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    background-size: cover; /* Ensure image covers the entire header */
+    background-position: center; 
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+
+    /* First try adding a linear background gradient from bottom to top that goes from red to purple */ 
+
+    /* Now try adding a background image */
+   
+    /* Now specify the repeat */
+
+    /* Now add a background attachment */
+
+    /* Now adjust the header height to 2000px */
+
+    height: 1000px;
+
+    /* Now play around with the background position declaration */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

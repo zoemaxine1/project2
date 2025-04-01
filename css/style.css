@@ -1,0 +1,85 @@
+body {
+  background-image: url("../img/sen.png");
+  
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  margin: 0;
+  background-size: 100%; /* Ensure image covers the entire header */
+  background-position: 0 300px; /* Move the image 50px higher */
+  
+
+ 
+}
+
+p {
+  padding: 12px 70px;
+  visibility: hidden; /* Makes text invisible but retains space */
+}
+
+div {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  font-size: 40px;
+}
+
+div a {
+  text-decoration: none; /* Removes the underline from links */
+  color: inherit; /* Inherits the color from the parent (white) */
+
+}
+div a:hover {
+  color: #ed9ff7;           /* Optional: Changes color when hovering over the link */
+  text-decoration: underline;  /* Optional: Adds underline on hover */
+ 
+}
+
+h1, h2{
+  font-weight: 700;
+  font-style: italic;
+ text-align: center;
+}
+
+h2{
+  text-shadow: 3px 3px 3px black;
+  font-family: "Lato", sans-serif;
+font-size: 30px ;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+header {
+  background-color: #ffdebed3;
+  background-image: linear-gradient(rgb(220, 170, 113),rgba(122, 66, 1, 0.478));
+  background-image: url("../img/viewp.jpg");
+  background-size: cover; /* Ensure image covers the entire header */
+  background-position: center; 
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  /* First try adding a linear background gradient from bottom to top that goes from red to purple */ 
+
+  /* Now try adding a background image */
+ 
+  /* Now specify the repeat */
+
+  /* Now add a background attachment */
+
+  /* Now adjust the header height to 2000px */
+
+  height: 1000px;
+
+  /* Now play around with the background position declaration */
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
