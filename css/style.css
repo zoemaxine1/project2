@@ -6,7 +6,7 @@ body {
   color: white;
   margin: 0;
   background-size: 100%; /* Ensure image covers the entire header */
-  background-position: 0 300px; /* Move the image 50px higher */
+  background-position: 0 -800px; /* Move the image 50px higher */
   
 
  
@@ -22,7 +22,7 @@ div {
   font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   color: white;
-  font-size: 40px;
+  font-size: 33px;
 }
 
 div a {
@@ -45,12 +45,12 @@ h1, h2{
 h2{
   text-shadow: 3px 3px 3px black;
   font-family: "Lato", sans-serif;
-font-size: 30px ;
+font-size: 25px ;
 }
 
 h1 {
   margin: 0;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 header {

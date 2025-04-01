@@ -10,7 +10,7 @@ nav a {
   color: white;             /* Makes the link text color white */
   text-decoration: none;    /* Removes the underline */
   padding: 10px 20px;       /* Optional: Add some padding around the links */
-  font-size: 27px;          /* Optional: Adjust font size */
+  font-size: 21px;          /* Optional: Adjust font size */
 }
 
 nav a:hover {
@@ -93,13 +93,13 @@ h1, h2 {
 
 h1 {
   margin: 0;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2{
   text-shadow: 3px 3px 3px black;
   font-family: "Lato", sans-serif;
-font-size: 30px ;
+font-size: 25px ;
 
 }
 
