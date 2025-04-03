@@ -33,11 +33,7 @@ nav a:hover {
   width: 700px;  /* Optional: Set a width for the image */
   height: 700px;  /* Maintain the image aspect ratio */
 }
-.container img {
-  margin-right: 20px;  /* Add some space between the image and the text */
-  width: 700px;  /* Optional: Set a width for the image */
-  height: 700px;  /* Maintain the image aspect ratio */
-}
+
 .container p, .container p2 {
   flex: 1;  /* Allow the text to take up remaining space */
 }
@@ -45,6 +41,8 @@ nav a:hover {
   display: flex;                 /* Flexbox layout for each image-text pair */
   align-items: center;           /* Vertically align the items */
 }
+
+
 
 .image-text img {
   width: 700px;
@@ -137,4 +135,35 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    
+}
+.coit {
+  display: flex;                     
+  flex-direction: row;              
+  align-items: center;              
+  justify-content: space-between;    
+  gap: 20px;                         
+  margin: 20px;
+}
+
+.coit img {
+  width: 700px;                      
+  height: 700px;                     
+  margin-right: 20px;                /* Adds space between image and text */
+  order: 1;                          /* Ensures the image appears first (on the left) */
+}
+
+.text {
+  flex: 1;                           /* Allow the text to take up remaining space */
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-align: left;                 
+  font-size: 20px;
+  order: 2;                         
+}
+
+.text p, .text p2 {
+  margin: 5px 0;
 }
