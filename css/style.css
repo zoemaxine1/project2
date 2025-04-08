@@ -117,7 +117,8 @@ header {
   }
   
 img {
-  width: 200px;                          
+  width: 200px;
+  height: auto;                          
   margin-right: 50px; 
   margin-left: 100px; 
   padding-right: 70px;
