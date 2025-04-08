@@ -43,7 +43,6 @@ nav a:hover {
 }
 
 
-
 .image-text img {
   width: 700px;
   height: 700px;                                  
@@ -103,7 +102,7 @@ font-size: 25px ;
 
 
 header {
-    background-color: #F85658;
+  
     background-image: linear-gradient(red,purple);
     background-image: url("../../img/bck.JPEG");
 
@@ -167,3 +166,4 @@ header {
 .text p, .text p2 {
   margin: 5px 0;
 }
+

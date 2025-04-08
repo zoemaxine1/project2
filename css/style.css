@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/sen.png");
+  background-image: url("../img/sen.jpg");
   
   font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
@@ -40,20 +40,26 @@ h1, h2{
   font-weight: 700;
   font-style: italic;
  text-align: center;
+
+ padding-bottom: none;
 }
 
 h2{
   text-shadow: 3px 3px 3px black;
   font-family: "Lato", sans-serif;
 font-size: 25px ;
+padding-bottom: none;
 }
+
 
 h1 {
   margin: 0;
   font-size: 50px;
+  padding-top: 50px;
 }
 
 header {
+  
   background-color: #ffdebed3;
   background-image: linear-gradient(rgb(220, 170, 113),rgba(122, 66, 1, 0.478));
   background-image: url("../img/viewp.jpg");
@@ -82,4 +88,44 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+  .me {
+    display: flex;                     
+    flex-direction: row;              
+    align-items: center;              
+    justify-content: space-between;    
+    gap: 20px;                         
+    margin: 20px;
+    flex: 1;                           /* Allow the text to take up remaining space */
+    font-style: italic;
+    color: white;
+    text-align: left;                 
+    order: 2; 
+    text-shadow: 3px 3px 3px black;
+    font-family: "Lato", sans-serif;
+    font-size: 25px; /* Correctly sets the font size for the text */
+  }
+  h3{
+    flex: 1;                           /* Allow the text to take up remaining space */
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-align: right;                 
+    font-size: 20px;
+    order: 2;      
+  }
+  
+img {
+  width: 200px;                      
+                    
+  margin-right: 50px; 
+  margin-left: 100px; 
+  padding-right: 70px;
+  padding-top: none;
+  margin-top: none;              /* Adds space between image and text */
+  order: 1; 
+  font-size: 25px  
+
+  /* Ensures the image appears first (on the left) */
 }
